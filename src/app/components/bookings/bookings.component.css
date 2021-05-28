@@ -1,0 +1,16 @@
+.fill-remaining-space {
+  flex: 1 1 auto;
+}
+
+table {
+  width: 100%;
+}
+
+.table-holder {
+  background-color: white;
+  padding: 15px;
+  padding-top: 5px;
+  border-radius: 5px;
+  margin-left: 45px;
+  margin-right: 45px;
+}
