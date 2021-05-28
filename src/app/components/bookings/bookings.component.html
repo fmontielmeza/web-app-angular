@@ -13,7 +13,7 @@
   </span>
   <span class="fill-remaining-space">Reservas</span>
   <button mat-button [matMenuTriggerFor]="menu" #menuTrigger="matMenuTrigger" (click)="menuTrigger.openMenu()">
-    {{tutenUser.firstName}}
+    {{tutenUser.firstName}} {{tutenUser.lastName}}
     <mat-icon size="1">person</mat-icon>
   </button>
 </mat-toolbar>
